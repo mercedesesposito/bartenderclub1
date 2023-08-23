@@ -404,18 +404,23 @@ video {
 }
 
 body{
-  position: relative;
-  z-index: 1;
-  font-family: Inter, sans-serif;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  --tw-text-opacity: 1;
-  color: rgb(121 128 138 / var(--tw-text-opacity));
+  color: #16423D;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Raleway;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 127%; /* 26.67px */;
 }
 
 h1,  h2,  h3,  h4,  h5,  h6{
-  font-family: Outfit, sans-serif;
+color: #FF3600;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Shrikhand;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: 103.5%; /* 56.925px */;
 }
 
 *, ::before, ::after{
